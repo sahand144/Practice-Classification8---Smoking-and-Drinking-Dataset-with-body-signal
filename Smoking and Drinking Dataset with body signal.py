@@ -1,5 +1,8 @@
-#Load the dataset
-path = r'D:\datasets\New To Work on 3\Smoking and Drinking Dataset with body signal\Smoking and Drinking Dataset with body signal.zip'
+#dataset link from kaggle
+# https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset/
+# i have downloaded it and then loaded from my local hard drive
+#Load the dataset(enter your own path for dataset)
+path = r'...your_path...\Smoking and Drinking Dataset with body signal.zip'
 
 #Import the necessary libraries for the task
 import zipfile as zip

@@ -1,33 +1,33 @@
-Smoking and Drinking Dataset Analysis
-Overview
+### Smoking and Drinking Dataset Analysis
+#### Overview
 This project analyzes the Smoking and Drinking Dataset with Body Signals from Kaggle. The dataset contains information about individuals' smoking and drinking habits along with various body signals. The goal is to explore the data, visualize key patterns, and build machine learning models to predict drinking behavior (DRK_YN).
 Dataset
 
-Source: Kaggle Smoking and Drinking Dataset
-Description: The dataset includes features such as age, smoking status (SMK_stat_type_cd), drinking status (DRK_YN), and various physiological measurements (e.g., sight, hearing, blood pressure).
-Preprocessing:
-Handled 26 duplicate rows.
-No missing values found.
-Encoded categorical variables (SMK_stat_type_cd, DRK_YN) using LabelEncoder.
-Scaled numerical features using StandardScaler.
+### Source: Kaggle Smoking and Drinking Dataset
+### Description: The dataset includes features such as age, smoking status (SMK_stat_type_cd), drinking status (DRK_YN), and various physiological measurements (e.g., sight, hearing, blood pressure).
+### Preprocessing:
+- Handled 26 duplicate rows.
+- No missing values found.
+- Encoded categorical variables (SMK_stat_type_cd, DRK_YN) using LabelEncoder.
+- Scaled numerical features using StandardScaler.
 
 
 
-Project Structure
+### Project Structure
 
-Code: The main script (analysis.ipynb or equivalent Python file) contains:
-Data loading and preprocessing.
-Exploratory Data Analysis (EDA) with visualizations.
-Machine learning model training and evaluation.
+- Code: The main script (analysis.ipynb or equivalent Python file) contains:
+- Data loading and preprocessing.
+- Exploratory Data Analysis (EDA) with visualizations.
+- Machine learning model training and evaluation.
 
 
-Dependencies: Listed in the Requirements section.
-Outputs: Visualizations (bar plots, histograms, boxplots, heatmaps, etc.) and model performance metrics.
+- Dependencies: Listed in the Requirements section.
+- Outputs: Visualizations (bar plots, histograms, boxplots, heatmaps, etc.) and model performance metrics.
 
-Analysis
-Exploratory Data Analysis (EDA)
+### Analysis
+#### Exploratory Data Analysis (EDA)
 
-Visualizations:
+#### Visualizations:
 Bar plots for SMK_stat_type_cd and DRK_YN distributions.
 Pie chart for smoking status proportions.
 Boxplots and histograms for numerical features.
